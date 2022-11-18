@@ -3,12 +3,6 @@ var rhit = rhit || {};
 /* Main */
 /** function and class syntax examples */
 rhit.main = function () {
-//    let headers=new Headers();
-//    headers.append('Content-Type', 'application/json');
-//    headers.append('Accept', 'application/json');
-//    headers.append('Access-Control-Allow-Methods', 'POST');
-//    headers.append('Access-Control-Allow-Origin', 'http://localhost:5000');
-//    headers.append('Access-Control-Allow-Credentials', 'true');
 
 	const inputEmailEl = document.querySelector("#inputEmail");
 	const inputPasswordEl = document.querySelector("#inputPassword");
