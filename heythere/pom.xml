@@ -29,7 +29,7 @@
         <functionResourceGroup>homewebsite</functionResourceGroup>
         <functionAppName>rmo-spring-function</functionAppName>
 
-        <functionAppRegion>us-central</functionAppRegion>
+        <functionAppRegion>us-central</functionAppRegion> 
         <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
         <start-class>com.example.DemoApplication</start-class>
     </properties>
