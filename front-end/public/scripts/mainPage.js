@@ -6,7 +6,7 @@ rhit.main = function () {
 
 	const inputFile = document.querySelector("#formFileMultiple");
 	document.querySelector("#submitButton").onclick = (event) => {
-		console.log(`Pictures submitted: ${inputSubmitEl.value} `);
+		console.log(`Pictures submitted: ${inputFile.value} `);
 		const userAction = async () => {
             const formData = new FormData();
             for (const file of inputFile.files) {
