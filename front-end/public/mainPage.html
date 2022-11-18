@@ -15,34 +15,50 @@
 
 <body>
   <nav class="navbar navbar-dark fixed-top">
-    <a class="navbar-brand" href="#">Olinger-Family Home</a>
+    <a class="navbar-brand" href="#">Olinger-Family Upload Picture</a>
   </nav>
   <div id="mainPage" class="container page-container">
-
-    <label for="formFileMultiple" class="form-label">Upload Picture</label>
-    <input class="form-control" type="file" id="formFileMultiple" multiple />
-
+<div class="container">
+  <div class="row">
+  <label for="formFileMultiple" class="form-label">Upload Picture</label>
+  <input class="form-control" type="file" id="formFileMultiple" multiple />
+</div>
+  <div class="row">
+    <div class="col-sm">
     <div class="form-group bmd-form-group" form="">
       <label for="inputName" class="bmd-label-floating">Name</label>
-      <input type="email" class="form-control" id="inputName" name="email">
+      <input type="text" class="form-control" id="inputName" name="email">
     </div>
+  </div>
+  <div class="col-sm">
     <div class="form-group bmd-form-group" form="" action="login.php" method="post">
       <label for="inputEvent" class="bmd-label-floating">Event</label>
-      <input type="email" class="form-control" id="inputEvent" name="email">
+      <input type="text" class="form-control" id="inputEvent" name="email">
     </div>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
     <p>Date Taken
       <input id="datepicker" width="276" />
       <script>
           $('#datepicker').datepicker();
       </script>
       </p>
-      <p> Select Number of people:
-        <select id="select1">
-        </select>
-
-    <button id="submitButton" type="button" class="btn btn-primary btn-outline">Submit</button>
+    </div>
+    <div class="col-sm">
+      <button id="addButton" type="button" class="btn btn-primary btn-outline">Add Person</button>
+    </div>
     <hr>
-
+  </div>
+  <div id="people"class="row">
+  </div>
+  <div class="row">
+    <hr>
+    <button id="submitButton" type="button" class="btn btn-primary btn-outline">Submit</button>
+  </div>
+</div>  
+   
 
   </div>
   <div role="calendar" type="month" class="gj-picker gj-picker-md datepicker gj-unselectable" guid="bf6e07a4-8138-7294-da50-90eb8310f8bb" month="10" year="2022" style="display: none;"><div role="body"></div></div>
