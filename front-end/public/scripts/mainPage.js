@@ -23,13 +23,9 @@ rhit.main = function () {
 			}else{
 				location.href="fail.html";
 			}
-		}
-			)};
-			
+		    }
+			)};	
 		  userAction();
-		}
-		 
+		}	 
 	}
-
-
 rhit.main();
